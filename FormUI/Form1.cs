@@ -17,8 +17,8 @@ namespace FormUI
         {
             InitializeComponent();
 
-            PeopleFoundListBox.DataSource = people;
-            PeopleFoundListBox.DisplayMember = "FullInfo";
+            FoundPeopleListBox.DataSource = people;
+            FoundPeopleListBox.DisplayMember = "FullInfo";
         }
         private void Form1_Load(object sender, EventArgs e)
         {

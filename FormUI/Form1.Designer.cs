@@ -88,10 +88,6 @@ namespace FormUI
 
         #endregion
 
-        private System.Windows.Forms.ListBox PeopleFoundListBox;
-        private System.Windows.Forms.TextBox LastNameTest;
-        private System.Windows.Forms.Label LastNameLabel;
-        private System.Windows.Forms.Button SearchButton;
         private System.Windows.Forms.ListBox FoundPeopleListBox;
         private System.Windows.Forms.Label LastName;
         private System.Windows.Forms.Button search;
