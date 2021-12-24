@@ -20,20 +20,16 @@ namespace FormUI
             FoundPeopleListBox.DataSource = people;
             FoundPeopleListBox.DisplayMember = "FullInfo";
         }
-        private void Form1_Load(object sender, EventArgs e)
-        {
 
-        }
 
         private void SearchButton_Click(object sender, EventArgs e)
         {
             DataAccess db = new DataAccess();
             people = db.GetPeople(LastNameText.Text);
+            FoundPeopleListBox.DataSource = people;
+            FoundPeopleListBox.DisplayMember = "FullInfo";
         }
 
-        private void FoundPeopleListBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
 
-        }
     }
 }

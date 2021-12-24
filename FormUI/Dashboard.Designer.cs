@@ -39,16 +39,15 @@ namespace FormUI
             // 
             this.FoundPeopleListBox.FormattingEnabled = true;
             this.FoundPeopleListBox.ItemHeight = 37;
-            this.FoundPeopleListBox.Location = new System.Drawing.Point(125, 341);
+            this.FoundPeopleListBox.Location = new System.Drawing.Point(36, 114);
             this.FoundPeopleListBox.Name = "FoundPeopleListBox";
-            this.FoundPeopleListBox.Size = new System.Drawing.Size(580, 707);
+            this.FoundPeopleListBox.Size = new System.Drawing.Size(817, 337);
             this.FoundPeopleListBox.TabIndex = 0;
-            this.FoundPeopleListBox.SelectedIndexChanged += new System.EventHandler(this.FoundPeopleListBox_SelectedIndexChanged);
             // 
             // LastName
             // 
             this.LastName.AutoSize = true;
-            this.LastName.Location = new System.Drawing.Point(125, 122);
+            this.LastName.Location = new System.Drawing.Point(29, 29);
             this.LastName.Name = "LastName";
             this.LastName.Size = new System.Drawing.Size(173, 37);
             this.LastName.TabIndex = 2;
@@ -56,7 +55,7 @@ namespace FormUI
             // 
             // search
             // 
-            this.search.Location = new System.Drawing.Point(322, 229);
+            this.search.Location = new System.Drawing.Point(688, 19);
             this.search.Name = "search";
             this.search.Size = new System.Drawing.Size(165, 57);
             this.search.TabIndex = 3;
@@ -65,14 +64,14 @@ namespace FormUI
             // 
             // LastNameText
             // 
-            this.LastNameText.Location = new System.Drawing.Point(322, 122);
+            this.LastNameText.Location = new System.Drawing.Point(250, 26);
             this.LastNameText.Name = "LastNameText";
             this.LastNameText.Size = new System.Drawing.Size(382, 44);
             this.LastNameText.TabIndex = 4;
             // 
             // Dashboard
             // 
-            this.ClientSize = new System.Drawing.Size(1410, 1153);
+            this.ClientSize = new System.Drawing.Size(900, 500);
             this.Controls.Add(this.LastNameText);
             this.Controls.Add(this.search);
             this.Controls.Add(this.LastName);
@@ -80,7 +79,6 @@ namespace FormUI
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Name = "Dashboard";
             this.Text = "SQL Data Access Demo";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
